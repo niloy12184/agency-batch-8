@@ -1,0 +1,23 @@
+.nav-container{
+    display: flex;
+    background-color: gray;
+    padding: 5px;
+    gap: 800px;
+    align-items: center;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 19px;
+}
+.banner-countainer{
+    height: 100vh;
+    background-image: url(./asset/image/background.jpg),
+    linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
